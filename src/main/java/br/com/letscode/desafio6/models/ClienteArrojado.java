@@ -1,4 +1,4 @@
-package br.com.letscode.desafio5.models;
+package br.com.letscode.desafio6.models;
 
 import java.util.ArrayList;
 

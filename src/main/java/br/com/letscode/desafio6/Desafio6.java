@@ -1,8 +1,8 @@
-package br.com.letscode.desafio5;
+package br.com.letscode.desafio6;
 
-import br.com.letscode.desafio5.models.*;
+import br.com.letscode.desafio6.models.*;
 
-public class Desafio5 {
+public class Desafio6 {
         public static void main(String[] args) {
             var conservador = new ClienteConservador();
             //método contratarInvestimento adiciona na lista de investimentos do cliente
