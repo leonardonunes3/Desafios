@@ -1,10 +1,10 @@
-package br.com.letscode.models;
+package br.com.letscode.desafio5.models;
 
 import java.util.ArrayList;
 
-public class ClienteModerado extends PerfilCliente<RendaFixa> {
+public class ClienteConservador extends PerfilCliente<RendaFixa> {
 
-    public ClienteModerado() {
+    public ClienteConservador() {
         investimentos = new ArrayList<>();
     }
     @Override

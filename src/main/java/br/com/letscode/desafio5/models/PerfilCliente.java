@@ -1,6 +1,5 @@
-package br.com.letscode.models;
+package br.com.letscode.desafio5.models;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class PerfilCliente<T> {
