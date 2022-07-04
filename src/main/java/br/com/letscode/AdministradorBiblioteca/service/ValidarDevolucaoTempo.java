@@ -17,7 +17,6 @@ public class ValidarDevolucaoTempo implements ValidarDevolucao {
         List<Livro> livrosEmprestados = cliente.getEmprestimo().getLivrosEmprestados();
         for(Livro livros : livrosEmprestados) {
             if(Objects.equals(livros.getNome(), livro.getNome())) {
-                livros.setDiaDevolucao(LocalDateTime.now());
                 if(livros.getDiaAluguel().until(livros.getDiaDevolucao(), DAYS) > 20) {
                     AcoesDevolucaoMulta acoes = new AcoesDevolucaoMulta();
                     acoes.setTempoDiasAluguel((int)
