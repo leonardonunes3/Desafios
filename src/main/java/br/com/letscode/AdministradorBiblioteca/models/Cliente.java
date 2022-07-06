@@ -8,6 +8,10 @@ public class Cliente {
 
     private Emprestimo emprestimo;
 
+    public Cliente() {
+        emprestimo = new Emprestimo();
+    }
+
     public String getNome() {
         return nome;
     }
@@ -36,7 +40,4 @@ public class Cliente {
         return emprestimo;
     }
 
-    public void setEmprestimo(Emprestimo emprestimo) {
-        this.emprestimo = emprestimo;
-    }
 }
