@@ -33,3 +33,4 @@
 /target/classes/br/com/letscode/AdministradorBiblioteca/service/ValidarEmprestimo.class
 /target/classes/br/com/letscode/AdministradorBiblioteca/service/ValidarEmprestimoDadosCliente.class
 /target/classes/br/com/letscode/AdministradorBiblioteca/service/ValidarEmprestimoQuantidadeLivros.class
+.idea/vcs.xml
