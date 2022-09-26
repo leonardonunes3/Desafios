@@ -19,8 +19,6 @@ public class Desafio7 {
 
             SendEmailService sendEmailService = new SendEmailService(formatacoes);
             sendEmailService.enviarEmail("Testando a formatação eM MaiúsCuLo");
-
-            System.out.println("commit 1");
         }
 
 }
